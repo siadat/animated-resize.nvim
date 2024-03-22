@@ -21,5 +21,6 @@ require("lazy").setup({
   {
     "siadat/animated-resize.nvim",
     opts = {},
+    dev = true,
   },
-})
+}, { dev = { path = '/work/src/nvim-plugins' } })

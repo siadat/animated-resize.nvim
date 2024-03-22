@@ -33,7 +33,6 @@ M.animated_resize = function(direction)
   end
 end
 
-
 M.setup = function(_)
   vim.keymap.set('n', '<c-w>|', function() M.animated_resize("maximize") end, { noremap = true, desc = "animated-resize: maximize current window width" })
   vim.keymap.set('n', '<c-w>=', function() M.animated_resize("equal") end, { noremap = true, desc = "animated-resize: equal all window widths" })
