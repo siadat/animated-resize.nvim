@@ -1,6 +1,7 @@
 FROM ubuntu:23.10
 
 ENV NVIM_VERSION v0.9.5
+ARG PLUGIN_NAME
 
 RUN apt-get update
 # wget is required for downloading nvim
